@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Nunito", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  :root {
+    /* Official s-pankki.fi design-system.min.css brand tokens */
+    --sds-white: #ffffff;
+    --sds-bg-weak-neutral: #f5f5f5;
+    --sds-bg-weakest-neutral: #fafafa;
+    --sds-bg-footer: #f5f8f7;
+    --sds-bg-weak-primary: #ebf7ec;
+    --sds-bg-weakest-primary: #f7fcf7;
+    --sds-bg-weaker-secondary: #d2fcd5;
+    --sds-border-weak-neutral: #e6e6e6;
+    --sds-border-weak-primary: #99d59f;
+    --sds-text-strongest-primary: #004628;
+    --sds-text-strong-primary: #007841;
+    --sds-text-medium-primary: #00aa46;
+    --sds-text-default-neutral: #1f1f1f;
+    --sds-text-stronger-neutral: #363636;
+    --sds-text-strong-neutral: #666666;
+    --sds-text-error: #b70000;
+    --sds-btn-primary-bg: #91fa9b;
+    --sds-btn-primary-hover: #49f37b;
+    --sds-btn-primary-active: #00eb5a;
+  }
+
+  body {
+    font-family: "Nunito", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    color: var(--sds-text-default-neutral);
+    background-color: var(--sds-white);
+  }
+
+  /* Headlines in Nunito Bold (700) & S-Pankki Strongest Primary (#004628) */
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-headline {
+    font-family: "Nunito", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    font-weight: 700;
+  }
+
+  /* Subtexts & paragraphs in Nunito Regular (400) */
+  p,
+  .font-subtext {
+    font-family: "Nunito", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+  }
+
+  .font-mono-num {
+    font-family: "Nunito", ui-sans-serif, system-ui, sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .font-formula {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

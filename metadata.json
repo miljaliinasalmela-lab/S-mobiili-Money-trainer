@@ -1,0 +1,6 @@
+{
+  "name": "Personal Economic Trainer",
+  "description": "Mobile-first financial coaching and three-basket monthly expense tracker prototype for the Junction 2026 S-Pankki challenge, powered by deterministic backend calculations and Gemini function calling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
